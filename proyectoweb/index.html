@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProyectoWeb</title>
+    <title>ProyectoWeb</title> 
     <link rel="stylesheet" href="estilo.css">
+    
 </head>
 <body>
-    <h1>Boletos para un festival de musica</h1>
+    <h1>BOLETOS PARA FESTIVAL DE MUSICA</h1>
     <form action="" method="get" >
         <div class="form-group" >
             <label for="nombre" >Nombre:</label>
             <input type="text" required>
         </div>
         <div class="form-group" >
-            <label for="Edad" >Edad:</label>
+            <label for="edad" >Edad:</label>
             <input type="number" required maxlength="1">
         </div>        
         <div class="form-group" >
-            <label for="Correo" >Correo:</label>
+            <label for="correo" >Correo:</label>
             <input type="email" required>
         </div>
         <div class="form-group" >
-            <label for="Artista" >¿A que artista esperas ver?:</label>
+            <label for="artista" >¿A que artista esperas ver?:</label>
             <input type="text" required >
         </div>
-        <div class="form-group" >
-            <label for="Explicacion" >¿Porque ganarse los boletos?:</label>
-            <input type="text" required>
+        <div class="form-group">
+            <label for="explicacion" >¿Porque ganarse los boletos?:</label>
+            <textarea id="mensaje" class="recuadro" required></textarea>
         </div> 
         <div >
             <button type="submit">Enviar</button>
